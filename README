@@ -1,0 +1,26 @@
+Zach Homans
+Game Programming Fall 2014
+Final Project: Spooky Quest
+
+
+Control your army of skeletons to reclaim the cemetary from the mummies.
+
+To run: Run "spooky.py".
+
+
+New skeletons can be summoned from spaces next to bone piles. 
+It is suggested to summon your skeletons before you use the last skeleton each turn.
+New bone piles can be made by destroying a skeleton with another skeleton.
+
+Most of the controls are located in-game on the right panel.
+Other controls include "Esc" to escape and the directional keys to move.
+
+If you want the characters to walk in place while moving set ANIMATION in constant.py to True.
+Note that this makes the game very gittery on slow computers.
+
+The AI for the Enemy is very bad. It often gets stuck or does stupid things.
+However, the goal for this project was not to focus on AI.
+
+Some features that I wanted to include that I didn't have time for include:
+	Multiple classes of units with different stats and methods of movement/attacking
+	Enemies that get stronger as you destroy Tombstones
